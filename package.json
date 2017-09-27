@@ -15,13 +15,17 @@
     "inquirer": "^1.1.0",
     "mkdirp": "^0.5.1",
     "pdfkit": "^0.8.3",
-    "request": "latest"
+    "request": "latest",
+    "user": "0.0.0"
   },
   "scripts": {
     "start": "node index"
   },
   "bin": {
     "spiderhack": "./index.js"
+  },
+  "engines": {
+    "node": "8.4.0"
   },
   "repository": {
     "type": "git",
