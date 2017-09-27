@@ -1,16 +1,11 @@
 {
-  "name": "SpiderHack",
+  "name": "spiderhack",
   "version": "1.0.0",
   "description": "Slideshare to pdf converter in nodejs",
-  "main": "wrap.js",
-  "scripts": {
-    "start": "node index"
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   },
-  "engines": {
-    "node": "8.4.0"
-  },
-  "author": "David García Carbayo",
-  "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
     "cheerio": "latest",
@@ -21,5 +16,26 @@
     "mkdirp": "^0.5.1",
     "pdfkit": "^0.8.3",
     "request": "latest"
-  }
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "bin": {
+    "spiderhack": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddgcarbayo/spiderhack.git"
+  },
+  "keywords": [
+    "slideshare",
+    "pdf",
+    "converter"
+  ],
+  "author": "David García Carbayo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddgcarbayo/spiderhack/issues"
+  },
+  "homepage": "https://github.com/ddgcarbayo/spiderhack#readme"
 }
